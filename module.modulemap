@@ -1,5 +1,5 @@
 module KQueue [system] {
-    header "/usr/local/include/kqueue/sys/event.h"
+    header "/usr/include/sys/event.h"
     link "kqueue"
     export *
 }
